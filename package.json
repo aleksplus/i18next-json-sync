@@ -46,7 +46,7 @@
     "@types/glob": "^5.0.30",
     "@types/jest": "^19.2.2",
     "@types/node": "^7.0.13",
-    "@types/yargs": "^6.6.0",
+    "@types/yargs": "^17.0.9",
     "jest": "^19.0.2",
     "remap-istanbul": "^0.7.0",
     "rimraf": "^2.5.4",
@@ -60,6 +60,6 @@
   "dependencies": {
     "glob": "^7.0.5",
     "json-stable-stringify": "^1.0.1",
-    "yargs": "^5.0.0"
+    "yargs": "^17.3.1"
   }
 }

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 import sync from './';
-import yargs = require('yargs');
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
 
 const {
 	check,
@@ -12,7 +13,7 @@ const {
 	lineendings,
 	finalnewline,
 	newkeysempty
-} = yargs
+} = yargs(hideBin(process.argv))
 	.describe('c','Audit files in memory instead of changing them on the filesystem and throw an error if any changes would be made')
 	.alias('c','check')
 	.boolean('c')
